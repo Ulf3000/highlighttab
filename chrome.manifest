@@ -1,0 +1,3 @@
+content highlightTab_at_Ulf3000		chrome/content/
+overlay chrome://browser/content/browser.xul chrome://highlightTab_at_Ulf3000/content/highlightTab_at_Ulf3000.xul
+

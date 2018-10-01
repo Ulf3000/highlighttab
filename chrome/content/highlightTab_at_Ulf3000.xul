@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+
+<overlay id="dotslashca_highlightTabOverlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<script language="javascript"
+	        src="chrome://highlightTab_at_Ulf3000/content/highlightTab_at_Ulf3000.js"/>
+	<popup id="tabContextMenu" >
+		<menu id="highlightTab_at_Ulf3000"
+		label="Highlight Tab"
+		      position="3">
+			<menupopup>	
+				<grid>
+					<columns>
+						<column />
+						<column />
+					</columns>
+					<rows>
+						<row>
+							<menuitem id="highlightTab_at_Ulf3000_Red"
+							          oncommand="highlightTab_at_Ulf3000.highlightTab(popupNode, '#F04F61')"
+							          label=""
+							          style="background-color:#F04F61; -moz-appearance: none !important; " />
+							<menuitem id="highlightTab_at_Ulf3000_LRed"
+							          oncommand="highlightTab_at_Ulf3000.highlightTab(popupNode, '#f8ada8')"
+							          label=""
+							          style="background-color:#f8ada8; -moz-appearance: none !important; " />
+						</row>
+						<row>
+							<menuitem id="highlightTab_at_Ulf3000_Orange"
+							          oncommand="highlightTab_at_Ulf3000.highlightTab(popupNode, '#f48121')"
+							          label=""
+							          style="background-color:#f48121 !important; ; -moz-appearance: none !important;" />
+							<menuitem id="highlightTab_at_Ulf3000_LOrange"
+							          oncommand="highlightTab_at_Ulf3000.highlightTab(popupNode, '#FAAD5F')"
+							          label=""
+							          style="background-color:#FAAD5F; -moz-appearance: none !important; " />
+						</row>
+						<row>
+							<menuitem id="highlightTab_at_Ulf3000_Yellow"
+							          oncommand="highlightTab_at_Ulf3000.highlightTab(popupNode, '#FFC94D')"
+							          label=""
+							          style="background-color:#FFC94D !important; ; -moz-appearance: none !important;" />
+							<menuitem id="highlightTab_at_Ulf3000_LYellow"
+							          oncommand="highlightTab_at_Ulf3000.highlightTab(popupNode, '#FFE1A5')"
+							          label=""
+							          style="background-color:#FFE1A5; -moz-appearance: none !important; " />
+						</row>
+						<row>
+							<menuitem id="highlightTab_at_Ulf3000_Green"
+							          oncommand="highlightTab_at_Ulf3000.highlightTab(popupNode, '#A4CF4D')"
+							          label=""
+							          style="background-color:#A4CF4D !important; ; -moz-appearance: none !important;" />
+							<menuitem id="highlightTab_at_Ulf3000_LGreen"
+							          oncommand="highlightTab_at_Ulf3000.highlightTab(popupNode, '#C5DE92')"
+							          label=""
+							          style="background-color:#C5DE92; -moz-appearance: none !important; " />
+						</row>
+						<row>
+							<menuitem id="highlightTab_at_Ulf3000_Blue"
+							          oncommand="highlightTab_at_Ulf3000.highlightTab(popupNode, '#32B0CF')"
+							          label=""
+							          style="background-color:#32B0CF !important; ; -moz-appearance: none !important;" />
+							<menuitem id="highlightTab_at_Ulf3000_LBlue"
+							          oncommand="highlightTab_at_Ulf3000.highlightTab(popupNode, '#8dcee2')"
+							          label=""
+							          style="background-color:#8dcee2; -moz-appearance: none !important; " />
+						</row>
+						<row>
+							<menuitem id="highlightTab_at_Ulf3000_Indigo"
+							          oncommand="highlightTab_at_Ulf3000.highlightTab(popupNode, '#8c58a8')"
+							          label=""
+							          style="background-color:#8c58a8 !important; ; -moz-appearance: none !important;" />
+							<menuitem id="highlightTab_at_Ulf3000_LIndigo"
+							          oncommand="highlightTab_at_Ulf3000.highlightTab(popupNode, '#D4B8CF')"
+							          label=""
+							          style="background-color:#D4B8CF; -moz-appearance: none !important; " />
+						</row>
+						<row>
+							<menuitem id="highlightTab_at_Ulf3000_Violet"
+							          oncommand="highlightTab_at_Ulf3000.highlightTab(popupNode, '#A27D60')"
+							          label=""
+							          style="background-color:#A27D60 !important; ; -moz-appearance: none !important;" />
+							<menuitem id="highlightTab_at_Ulf3000_LViolet"
+							          oncommand="highlightTab_at_Ulf3000.highlightTab(popupNode, '#C7B49C')"
+							          label=""
+							          style="background-color:#C7B49C; -moz-appearance: none !important; " />
+						</row>
+
+						<menuitem id="highlightTab_at_Ulf3000_None"
+						          oncommand="highlightTab_at_Ulf3000.highlightTab(popupNode, '')"
+						          label="NONE" />
+
+					</rows>
+				</grid>
+
+			</menupopup>
+		</menu>
+	</popup>
+
+</overlay>
